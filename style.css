@@ -171,7 +171,7 @@ h6 {
 
 .left-column {
     grid-area: left-column;
-    padding: 50px 0 0 50px;
+    padding: 50px 0;
 }
 
 #profile_pic{
@@ -233,7 +233,6 @@ h6 {
     grid-area: right-column;
     display: grid;
     align-content: center;
-
     padding: 50px 0 50px 0;
 }
 
@@ -357,6 +356,10 @@ h6 {
         "left-column"
         "right-column"
         ;
+    }
+
+    .left-column {
+        align-content: center;
     }
 
     .right-column {
